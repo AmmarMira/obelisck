@@ -1,0 +1,24 @@
+.about{
+	padding: 50px 0;
+	h1{
+		color: $Success;
+		font-size: 40px;
+		text-align: center;
+	}
+	h2 {
+	   width: 360px; 
+	   text-align: center; 
+	   border-bottom: 2px solid $Success; 
+	   line-height: 0.1em;
+	   margin: auto; 
+	   font-size: 40px;
+
+	   span{
+			background: #fff; 
+			padding:0 5px; 	 
+			color: $Success;  
+			position: relative;
+			top: 22px;	
+	   }
+	} 
+}

@@ -120,3 +120,23 @@ body {
     position: absolute;
     bottom: 20px;
     right: 50%; }
+
+.about {
+  padding: 50px 0; }
+  .about h1 {
+    color: #02C39A;
+    font-size: 40px;
+    text-align: center; }
+  .about h2 {
+    width: 360px;
+    text-align: center;
+    border-bottom: 2px solid #02C39A;
+    line-height: 0.1em;
+    margin: auto;
+    font-size: 40px; }
+    .about h2 span {
+      background: #fff;
+      padding: 0 5px;
+      color: #02C39A;
+      position: relative;
+      top: 22px; }
