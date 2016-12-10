@@ -1,0 +1,122 @@
+.huge-headline {
+  font-size: 22px; }
+  @media only screen and (min-width: 1168px) {
+    .huge-headline {
+      font-size: 100px; } }
+
+.xl-h {
+  font-size: 20px; }
+  @media only screen and (min-width: 1168px) {
+    .xl-h {
+      font-size: 36px; } }
+
+h1,
+.h1 {
+  font-size: 20px; }
+  @media only screen and (min-width: 990px) {
+    h1,
+    .h1 {
+      font-size: 28px; } }
+
+h2,
+.h2 {
+  font-size: 26px; }
+
+h3,
+.h3 {
+  font-size: 18px; }
+  @media only screen and (min-width: 990px) {
+    h3,
+    .h3 {
+      font-size: 24px; } }
+
+h4,
+.h4 {
+  font-size: 18px; }
+  @media only screen and (min-width: 990px) {
+    h4,
+    .h4 {
+      font-size: 22px; } }
+
+h5,
+.h5 {
+  font-size: 20px; }
+
+h6,
+.h6 {
+  font-size: 18px; }
+
+p,
+.p {
+  font-size: 16px;
+  line-height: 24px; }
+
+p.sm {
+  font-size: 14px;
+  line-height: 20px; }
+
+p.lg {
+  font-size: 18px;
+  font-size: 24px; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  margin: 0;
+  padding: 0; }
+
+.navbar-brand,
+.brand-text {
+  font-family: Pacifico; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.main-bg {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  background-image: linear-gradient(45deg, #43CEA2 0%, #2C909F 54%, #2B8D9F 56%, #2A8B9F 57%, #28859F 63%, #28849F 63%, #28849F 63%, #27839F 64%, #185A9D 100%); }
+  .main-bg .navbar {
+    background-image: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 0; }
+    .main-bg .navbar .navbar-brand {
+      overflow: hidden;
+      width: 100px; }
+      .main-bg .navbar .navbar-brand img {
+        width: 100%; }
+    .main-bg .navbar .navbar-collapse ul li {
+      padding-left: 20px;
+      padding-right: 20px; }
+      .main-bg .navbar .navbar-collapse ul li a {
+        color: #fff; }
+        .main-bg .navbar .navbar-collapse ul li a:hover, .main-bg .navbar .navbar-collapse ul li a:focus {
+          background-color: transparent; }
+    .main-bg .navbar .navbar-collapse ul li.active {
+      border-bottom: 2px solid #02C39A;
+      margin-bottom: -2px; }
+    .main-bg .navbar .navbar-toggle {
+      border: 1px solid #27839F; }
+  .main-bg .header-text {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center; }
+    .main-bg .header-text h1 {
+      display: table-cell;
+      vertical-align: middle;
+      color: #fff;
+      font-size: 64px; }
+      .main-bg .header-text h1:after {
+        content: ' ';
+        display: block;
+        border: 2px solid #02C39A;
+        width: 400px;
+        margin: auto;
+        margin-top: 15px; }
+  .main-bg i.fa.fa-arrow-circle-o-down {
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 50%; }
